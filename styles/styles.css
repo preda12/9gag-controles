@@ -1,0 +1,20 @@
+.video-post .sound-toggle,
+.youtube-post .sound-toggle {
+  bottom: 74px !important;
+  left: 7px !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+.alwaysOn::-webkit-media-controls-panel {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+.video-post p.length,
+.youtube-post p.length {
+  margin-bottom: 65px;
+}

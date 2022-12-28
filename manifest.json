@@ -1,0 +1,25 @@
+{
+    "name": "9GAG Controls",
+    "content_scripts": [
+        {
+            "css": [
+                "styles/styles.css"
+            ],
+            "js": [
+                "js/content.js"
+            ],
+            "matches": [
+                "https://9gag.com/*"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "version": "1.0",
+    "description": "Automatically enabled controls for the video posts and repositioned mute button.",
+    "manifest_version": 3,
+    "permissions": [
+        "scripting"
+    ]
+}
